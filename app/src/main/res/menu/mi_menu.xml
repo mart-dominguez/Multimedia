@@ -3,4 +3,6 @@
     <item android:id="@+id/foto" android:title="Foto"></item>
     <item android:id="@+id/audio" android:title="Audio"></item>
     <item android:id="@+id/video" android:title="Video"></item>
+    <item android:id="@+id/sensores" android:title="Sensores"></item>
+    <item android:id="@+id/sensorAmbiente" android:title="Ambiente"></item>
 </menu>

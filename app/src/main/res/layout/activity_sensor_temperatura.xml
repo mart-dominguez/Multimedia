@@ -5,21 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SacarFotoActivity">
-    <include layout="@layout/barra_herramientas"></include>
-
-    <Button
-        android:text="SACAR FOTO"
-        android:id="@+id/btnSacarFoto"
+    tools:context=".SensorTemperaturaActivity">
+    <TextView
+        android:id="@+id/titulo"
+        android:text="SENSOR DE LUZ"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:text="SACAR FOTO y GUARDARLA"
-        android:id="@+id/btnSacarGuardarFoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <ImageView
-        android:id="@+id/foto"
+    <TextView
+        android:id="@+id/resultado"
+        android:lines="5"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

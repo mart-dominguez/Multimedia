@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent i1 = new Intent(this,SacarFotoActivity.class);
                 startActivity(i1);
                 return true;
+            case R.id.sensores:
+                Intent i2 = new Intent(this,ListarSensores.class);
+                startActivity(i2);
+                return true;
+            case R.id.sensorAmbiente:
+                Intent i3 = new Intent(this,SensorTemperaturaActivity.class);
+                startActivity(i3);
+                return true;
             case R.id.audio:
                 return true;
             default:

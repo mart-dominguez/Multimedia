@@ -6,6 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+
+
+    </style>
+    <style name="titulo" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

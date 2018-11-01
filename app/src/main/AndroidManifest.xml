@@ -7,6 +7,7 @@
         android:required="true" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -35,7 +36,9 @@
         </provider>
 
         <activity android:name=".ListarSensores" />
-        <activity android:name=".SensorTemperaturaActivity"></activity>
+        <activity android:name=".SensorTemperaturaActivity" />
+        <activity android:name=".GrabarReproducirActivity" />
+        <activity android:name=".VideoActivity"></activity>
     </application>
 
 </manifest>

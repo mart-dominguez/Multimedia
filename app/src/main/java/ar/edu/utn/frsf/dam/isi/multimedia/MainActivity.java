@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i3);
                 return true;
             case R.id.audio:
+                Intent i4 = new Intent(this,GrabarReproducirActivity.class);
+                startActivity(i4);
+                return true;
+            case R.id.video:
+                Intent i5 = new Intent(this,VideoActivity.class);
+                startActivity(i5);
                 return true;
             default:
                 Toast.makeText(this, "ESTA OPCION NO TIENE ACCION ASOCIADA", Toast.LENGTH_LONG).show();

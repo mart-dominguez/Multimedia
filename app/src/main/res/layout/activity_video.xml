@@ -5,21 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SacarFotoActivity">
-    <include layout="@layout/barra_herramientas"></include>
-
-    <Button
-        android:text="SACAR FOTO"
-        android:id="@+id/btnSacarFoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-    android:text="SACAR FOTO y GUARDARLA"
-    android:id="@+id/btnSacarGuardarFoto"
+    tools:context=".VideoActivity">
+<Button
+    android:text="GRABAR VIDEO"
+    android:id="@+id/btnGrabarVideo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
-    <ImageView
-        android:id="@+id/foto"
+    <Button
+        android:text="Ver VIDEO"
+        android:id="@+id/btnVerVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <VideoView
+        android:id="@+id/videoVer"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

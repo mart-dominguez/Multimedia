@@ -5,22 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SacarFotoActivity">
-    <include layout="@layout/barra_herramientas"></include>
+    tools:context=".GrabarReproducirActivity">
+    <Button
+        android:text="Grabar"
+        android:id="@+id/btnGrabarAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Reproducir"
+        android:id="@+id/btnReproducir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    <Button
-        android:text="SACAR FOTO"
-        android:id="@+id/btnSacarFoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-    android:text="SACAR FOTO y GUARDARLA"
-    android:id="@+id/btnSacarGuardarFoto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
-    <ImageView
-        android:id="@+id/foto"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </LinearLayout>
